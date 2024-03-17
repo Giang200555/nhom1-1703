@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="dathang.css">
+    <title>Tư vấn đặt hàng</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#" class="logo">SHOPCARS</a>
+        <div class="links">
+            <a href="trangchu.html">TRANG CHỦ</a>
+            <a href="#">VĂN HÓA XE</a>
+            <a href="#">ĐÁNH GIÁ XE</a>
+        </div>
+    </nav>
+    <div></div>
+    <form action="/submit_order" method="post">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="phone">Số Điện Thoại:</label>
+        <input type="text" id="phone" name="phone" required>
+      
+        <label for="address">Địa Chỉ:</label>
+        <textarea id="address" name="address" required></textarea>
+      
+        <label for="product">Tên Hãng:</label>
+        <select id="product" name="product" required>
+            <option value="">--Tên hãng xe--</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Pagani">Pagani</option>
+            <option value="Rolls Role">Rolls Role</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+          </select>
+          
+        <label for="product">Tình trạng xe:</label>
+        <select id="product" name="product" required>
+            <option value="product1">--Tình trạng--</option>
+            <option value="product1">Đời mới</option>
+            <option value="product2">Đời cũ</option>
+            <option value="product3">Đã qua sử dụng</option>
+        </select>
+      
+        <input type="submit" value="Liên hệ tư vấn">
+    </form>
+    <footer>
+        <h3>Create, Xuân Giang & Bích Ngọc</h3>
+        <div class="right">
+            <div class="links">
+                <a href="#">Chính sách bảo mật</a>
+                <a href="#">Hợp Tác</a>
+                <a href="#">Bảo trợ</a>
+                <a href="#">Liên hệ với chúng tôi</a>
+            </div>
+            <div class="social">
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-facebook-square'></i>
+                <i class='bx bxl-github'></i>
+            </div>
+            <p>Copyright © 2024 Xuangiang, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

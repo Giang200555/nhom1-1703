@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    align-items: center;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    width: 100%; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav a.logo{
+    font-size: 33px;
+    color: #0f2182;
+    font-weight: 600;
+}
+
+nav .links a:not(:last-child){
+    margin-right: 20px;
+}
+.tieude{
+    font-size: 40px;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-right: 130px;
+    line-height: 1.5;
+}
+.thongtinchinh {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.th {
+    font-size: 15px;
+    opacity: 0.7;
+}
+p {
+    font-size: 20px;
+}
+.main {
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 48px;
+}
+
+footer .right{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 26px;
+}
+
+footer .right .links{
+    display: flex;
+    gap: 30px;
+}
+
+footer .right .links a{
+    color: #989898;
+    transition: color 0.3s ease;
+}
+
+footer .right .links a:hover{
+    color: #fff;
+}
+
+footer .right .social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .right .social i{
+    font-size: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+footer .right .social i:hover{
+    color: #304ffe;
+}
+
+footer .right p{
+    font-size: 13px;
+    color: #777;
+}
